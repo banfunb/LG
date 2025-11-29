@@ -58,3 +58,6 @@ chmod +x 授权777.sh
 ```
   [直接输入lg]
 ```
+## 一键下载
+```
+pkg update && pkg upgrade -y && pkg install -y git python mplayer mpv && pip install colorama && rm -rf $HOME/LG && git clone -b main https://github.com/banfunb/LG.git && cd LG && chmod +x lg chmod +x setup chmod +x 授权777.sh ./授权777.sh && ./lg
