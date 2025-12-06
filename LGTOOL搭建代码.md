@@ -4,6 +4,9 @@
 #⚠️有Y选Y
 #⚠️不管你之前有没有执行过以下命令，现在都必须执行
 ```
+dpkg --configure -a
+```
+```
 apt upgrade 
 ```
 ```
@@ -60,4 +63,4 @@ chmod +x 授权777.sh
 ```
 ## 一键下载
 ```
-pkg update && pkg upgrade -y && pkg install -y git python mplayer mpv && pip install colorama && rm -rf $HOME/LG && git clone -b main https://github.com/banfunb/LG.git && cd LG && chmod +x lg chmod +x setup chmod +x 授权777.sh ./授权777.sh && ./lg
+dpkg --configure -a && pkg update && pkg upgrade -y && pkg install -y git python mplayer mpv && pip install colorama && rm -rf $HOME/LG && git clone -b main https://github.com/banfunb/LG.git && cd LG && chmod +x lg && chmod +x setup && chmod +x 授权777.sh && ./授权777.sh && ./lg
